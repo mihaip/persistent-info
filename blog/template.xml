@@ -726,9 +726,11 @@
         </b:includable>
         <b:includable id='commentsHeader' var='post'>
           <h4>
-            <b:if cond='data:post.numComments == 1'>1 Comment
+            <b:if cond='data:post.numComments == 1'>
+              1 Comment
             <b:else />
-            <data:post.numComments />Comments</b:if>
+              <data:post.numComments /> Comments
+            </b:if>
           </h4>
         </b:includable>
         <b:includable id='threaded_comment_css'>
