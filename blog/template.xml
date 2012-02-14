@@ -874,8 +874,8 @@
                 months
               -->
                 <b:loop values='data:intervalData' var='i'>
-                  <b:if cond='data:i.name &gt;= 2007'>
-                    <b:if cond='data:i.name == "2011"'>
+                  <b:if cond='data:i.name &gt;= 2008'>
+                    <b:if cond='data:i.name == "2012"'>
                       <td class='bottom-group-start'>
                         <b:include data='i' name='yearArchive' />
                       </td>
@@ -894,7 +894,7 @@
                   <h3>Long Ago</h3>
                   <ul class='year-archive'>
                     <b:loop values='data:intervalData' var='i'>
-                      <b:if cond='data:i.name &lt; 2007'>
+                      <b:if cond='data:i.name &lt; 2008'>
                         <li>
                           <a class='post-count-link' expr:href='data:i.url'>
                             <data:i.name />
