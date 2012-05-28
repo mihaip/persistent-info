@@ -3,17 +3,17 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta content='blogger' name='generator' />
-    <link href='http://feeds.feedburner.com/PersistentInfo' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml' />
-    <link href='http://blog.persistent.info/feeds/comments/default' rel='alternate' title='persistent.info - Comments Feed' type='application/atom+xml' />
-    <link href='http://www2.blogger.com/rsd.g?blogID=6525469191850690957' rel='EditURI' title='RSD' type='application/rsd+xml' />
-    <link href='http://www.blogger.com/openid-server.g' rel='openid.server' />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta content='blogger' name='generator'/>
+    <link href='http://feeds.feedburner.com/PersistentInfo' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml'/>
+    <link href='http://blog.persistent.info/feeds/comments/default' rel='alternate' title='persistent.info - Comments Feed' type='application/atom+xml'/>
+    <link href='http://www2.blogger.com/rsd.g?blogID=6525469191850690957' rel='EditURI' title='RSD' type='application/rsd+xml'/>
+    <link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
     <title>
-      <data:blog.pageTitle />
+      <data:blog.pageTitle/>
     </title>
-    <link href='http://persistent.info/blogger-files/main.css' rel='stylesheet' />
-    <link href='http://persistent.info/blogger-files/favicon.ico' rel='shortcut icon' />
+    <link href='http://persistent.info/blogger-files/main.css' rel='stylesheet'/>
+    <link href='http://persistent.info/blogger-files/favicon.ico' rel='shortcut icon'/>
     <b:skin>
       <![CDATA[]]>
     </b:skin>
@@ -39,10 +39,10 @@
       <b:widget id='Header1' locked='true' title='persistent.info (Header)' type='Header'>
         <b:includable id='title'>
           <b:if cond='data:blog.url == data:blog.homepageUrl'>
-            <data:title />
-            <b:else />
+            <data:title/>
+            <b:else/>
             <a expr:href='data:blog.homepageUrl'>
-              <data:title />
+              <data:title/>
             </a>
           </b:if>
         </b:includable>
@@ -50,7 +50,7 @@
           <div class='descriptionwrapper'>
             <p class='description'>
               <span>
-                <data:description />
+                <data:description/>
               </span>
             </p>
           </div>
@@ -60,7 +60,7 @@
             <a href='http://blog.persistent.info/'>
               <h1 id='title'>
                 <span>
-                  <data:title />
+                  <data:title/>
                 </span>
               </h1>
             </a>
@@ -89,13 +89,13 @@
             <b:if cond='data:newerPageUrl'>
               <span id='navigation-newer-link'>
               <a expr:href='data:newerPageUrl'>
-                <data:newerPageTitle />
+                <data:newerPageTitle/>
               </a>»</span>
             </b:if>
             <b:if cond='data:olderPageUrl'>
               <span id='navigation-older-link'>«
               <a expr:href='data:olderPageUrl'>
-                <data:olderPageTitle />
+                <data:olderPageTitle/>
               </a></span>
             </b:if>
           </div>
@@ -104,55 +104,55 @@
           <b:if cond='data:top.showEmailButton'>
             <a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + "&amp;target=email"' expr:title='data:top.emailThisMsg' target='_blank'>
               <span class='share-button-link-text'>
-                <data:top.emailThisMsg />
+                <data:top.emailThisMsg/>
               </span>
             </a>
           </b:if>
           <b:if cond='data:top.showBlogThisButton'>
             <a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + "&amp;target=blog"' expr:onclick='"window.open(this.href, \"_blank\", \"height=270,width=475\"); return false;"' expr:title='data:top.blogThisMsg' target='_blank'>
               <span class='share-button-link-text'>
-                <data:top.blogThisMsg />
+                <data:top.blogThisMsg/>
               </span>
             </a>
           </b:if>
           <b:if cond='data:top.showTwitterButton'>
             <a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + "&amp;target=twitter"' expr:title='data:top.shareToTwitterMsg' target='_blank'>
               <span class='share-button-link-text'>
-                <data:top.shareToTwitterMsg />
+                <data:top.shareToTwitterMsg/>
               </span>
             </a>
           </b:if>
           <b:if cond='data:top.showFacebookButton'>
             <a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + "&amp;target=facebook"' expr:onclick='"window.open(this.href, \"_blank\", \"height=430,width=640\"); return false;"' expr:title='data:top.shareToFacebookMsg' target='_blank'>
               <span class='share-button-link-text'>
-                <data:top.shareToFacebookMsg />
+                <data:top.shareToFacebookMsg/>
               </span>
             </a>
           </b:if>
           <b:if cond='data:top.showOrkutButton'>
             <a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + "&amp;target=orkut"' expr:title='data:top.shareToOrkutMsg' target='_blank'>
               <span class='share-button-link-text'>
-                <data:top.shareToOrkutMsg />
+                <data:top.shareToOrkutMsg/>
               </span>
             </a>
           </b:if>
           <b:if cond='data:top.showDummy'>
             <div class='goog-inline-block dummy-container'>
-              <data:post.dummyTag />
+              <data:post.dummyTag/>
             </div>
           </b:if>
         </b:includable>
         <b:includable id='threaded_comment_js' var='post'>
-          <script defer='defer' expr:src='data:post.commentSrc' type='text/javascript' />
+          <script defer='defer' expr:src='data:post.commentSrc' type='text/javascript'/>
           <script type='text/javascript'>(function() { var items =
-          <data:post.commentJso />; var msgs =
-          <data:post.commentMsgs />; var postId = '
-          <data:post.id />'; var feed = '
-          <data:post.commentFeed />'; var authorName = '
-          <data:post.author />'; var authorUrl = '
-          <data:post.authorUrl />'; var blogId = '
-          <data:top.id />'; var baseUri = '
-          <data:post.commentBase />'; //
+          <data:post.commentJso/>; var msgs =
+          <data:post.commentMsgs/>; var postId = '
+          <data:post.id/>'; var feed = '
+          <data:post.commentFeed/>'; var authorName = '
+          <data:post.author/>'; var authorUrl = '
+          <data:post.authorUrl/>'; var blogId = '
+          <data:top.id/>'; var baseUri = '
+          <data:post.commentBase/>'; //
 <![CDATA[
       feed += '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
       var cursor = null;
@@ -320,9 +320,9 @@
 </script>
         </b:includable>
         <b:includable id='backlinks' var='post'>
-          <a name='links' />
+          <a name='links'/>
           <h4>
-            <data:post.backlinksLabel />
+            <data:post.backlinksLabel/>
           </h4>
           <b:if cond='data:post.numBacklinks != 0'>
             <dl class='comments-block' id='comments-block'>
@@ -331,21 +331,21 @@
                   <dt class='comment-title'>
                     <span class='backlink-toggle-zippy'>&#160;</span>
                     <a expr:href='data:backlink.url' rel='nofollow'>
-                      <data:backlink.title />
+                      <data:backlink.title/>
                     </a>
-                    <b:include data='backlink' name='backlinkDeleteIcon' />
+                    <b:include data='backlink' name='backlinkDeleteIcon'/>
                   </dt>
                   <dd class='comment-body collapseable'>
-                    <data:backlink.snippet />
+                    <data:backlink.snippet/>
                   </dd>
                   <dd class='comment-footer collapseable'>
                     <span class='comment-author'>
-                      <data:post.authorLabel />
-                      <data:backlink.author />
+                      <data:post.authorLabel/>
+                      <data:backlink.author/>
                     </span>
                     <span class='comment-timestamp'>
-                      <data:post.timestampLabel />
-                      <data:backlink.timestamp />
+                      <data:post.timestampLabel/>
+                      <data:backlink.timestamp/>
                     </span>
                   </dd>
                 </div>
@@ -354,48 +354,48 @@
           </b:if>
           <p class='comment-footer'>
             <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + "_backlinks-create-link"' target='_blank'>
-              <data:post.createLinkLabel />
+              <data:post.createLinkLabel/>
             </a>
           </p>
         </b:includable>
         <b:includable id='mobile-main' var='top'>
           <!-- posts -->
           <div class='blog-posts hfeed'>
-            <b:include data='top' name='status-message' />
+            <b:include data='top' name='status-message'/>
             <b:if cond='data:blog.pageType == "index"'>
               <b:loop values='data:posts' var='post'>
-                <b:include data='post' name='mobile-index-post' />
+                <b:include data='post' name='mobile-index-post'/>
               </b:loop>
-              <b:else />
+              <b:else/>
               <b:loop values='data:posts' var='post'>
-                <b:include data='post' name='mobile-post' />
+                <b:include data='post' name='mobile-post'/>
               </b:loop>
             </b:if>
           </div>
-          <b:include name='mobile-nextprev' />
+          <b:include name='mobile-nextprev'/>
         </b:includable>
         <b:includable id='post' var='post'>
           <div class='entry' expr:id='data:post.id'>
             <h1 class='entry-title'>
               <a clas='perma-link' expr:href='data:post.url'>
-                <data:post.title />
+                <data:post.title/>
                 <span class='perma-link-symbol'>#</span>
               </a>
             </h1>
             <div class='entry-container'>
               <div class='entry-date'>
                 <span class='entry-label'>
-                  <data:top.timestampLabel />
+                  <data:top.timestampLabel/>
                 </span>
-                <data:post.timestamp />
+                <data:post.timestamp/>
               </div>
               <div class='entry-meta'>
                 <b:if cond='data:post.labels'>
                   <span class='entry-label'>
-                    <data:postLabelsLabel />
+                    <data:postLabelsLabel/>
                   </span>
                   <b:loop values='data:post.labels' var='label'>
-                    <a expr:href='data:label.url' rel='tag'><data:label.name /></a><b:if cond='data:label.isLast != "true"'>,</b:if>
+                    <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != "true"'>,</b:if>
                   </b:loop>
                 </b:if>
                 <b:if cond='data:blog.pageType != "item"'>
@@ -404,19 +404,19 @@
                     <b:if cond='data:post.numComments &gt; 0'>
                       <a class='entry-comments-link' expr:href='data:post.url + "#comments"'>
                         <span class='entry-label'>Comments:</span>
-                        <data:post.numComments />
+                        <data:post.numComments/>
                       </a>
                       <!-- For ones that don't, go straight to the comment creation form -->
-                      <b:else />
+                      <b:else/>
                       <a class='entry-comments-link' expr:href='data:post.addCommentUrl'>
-                        <data:postCommentMsg />
+                        <data:postCommentMsg/>
                       </a>
                     </b:if>
                   </b:if>
                 </b:if>
               </div>
               <div class='entry-body'>
-                <data:post.body />
+                <data:post.body/>
               </div>
             </div>
           </div>
@@ -425,48 +425,48 @@
           <!-- Status Message -->
           <b:if cond='data:navMessage'>
             <div id='status-message'>
-              <data:navMessage />
+              <data:navMessage/>
             </div>
           </b:if>
         </b:includable>
         <b:includable id='comment-form' var='post'>
           <div class='comment-form'>
-            <a name='comment-form' />
+            <a name='comment-form'/>
             <h3>
-              <data:postCommentMsg />
+              <data:postCommentMsg/>
             </h3>
             <p>
-              <data:blogCommentMessage />
+              <data:blogCommentMessage/>
             </p>
             <div id='comment-iframe-container'>
-              <iframe allowtransparency='true' expr:src='data:post.commentFormIframeSrc' frameborder='0' height='190' id='comment-editor' scrolling='auto' width='100%' />
+              <iframe allowtransparency='true' expr:src='data:post.commentFormIframeSrc' frameborder='0' height='190' id='comment-editor' scrolling='auto' width='100%'/>
             </div>
           </div>
         </b:includable>
         <b:includable id='threaded_comments' var='post'>
-          <b:include name='threaded_comment_css' />
+          <b:include name='threaded_comment_css'/>
           <div class='comments' id='comments'>
-            <a name='comments' />
+            <a name='comments'/>
             <h4>
               <b:if cond='data:post.numComments == 1'>1
-              <data:commentLabel />:
-              <b:else />
-              <data:post.numComments />
-              <data:commentLabelPlural />:</b:if>
+              <data:commentLabel/>:
+              <b:else/>
+              <data:post.numComments/>
+              <data:commentLabelPlural/>:</b:if>
             </h4>
             <div class='comments-content'>
               <b:if cond='data:post.embedCommentForm'>
-                <b:include data='post' name='threaded_comment_js' />
+                <b:include data='post' name='threaded_comment_js'/>
               </b:if>
               <div id='comment-holder'>
-                <data:post.commentHtml />
+                <data:post.commentHtml/>
               </div>
             </div>
             <p class='comment-footer'>
               <b:if cond='data:post.allowNewComments'>
-                <b:include data='post' name='threaded-comment-form' />
-                <b:else />
-                <data:post.noNewCommentsText />
+                <b:include data='post' name='threaded-comment-form'/>
+                <b:else/>
+                <data:post.noNewCommentsText/>
               </b:if>
             </p>
             <b:if cond='data:showCmtPopup'>
@@ -477,7 +477,7 @@
             <div id='backlinks-container'>
               <div expr:id='data:widget.instanceId + "_backlinks-container"'>
                 <b:if cond='data:post.showBacklinks'>
-                  <b:include data='post' name='backlinks' />
+                  <b:include data='post' name='backlinks'/>
                 </b:if>
               </div>
             </div>
@@ -486,7 +486,7 @@
         <b:includable id='backlinkDeleteIcon' var='backlink'>
           <span expr:class='"item-control " + data:backlink.adminClass'>
             <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
-              <img src='//www.blogger.com/img/icon_delete13.gif' />
+              <img src='//www.blogger.com/img/icon_delete13.gif'/>
             </a>
           </span>
         </b:includable>
@@ -504,57 +504,57 @@
             </b:if>
             <div class='mobile-link-button' id='blog-pager-home-link'>
               <a class='home-link' expr:href='data:blog.homepageUrl'>
-                <data:homeMsg />
+                <data:homeMsg/>
               </a>
             </div>
             <div class='mobile-desktop-link'>
               <a class='home-link' expr:href='data:desktopLinkUrl'>
-                <data:desktopLinkMsg />
+                <data:desktopLinkMsg/>
               </a>
             </div>
           </div>
-          <div class='clear' />
+          <div class='clear'/>
         </b:includable>
         <b:includable id='mobile-post' var='post'>
           <div class='date-outer'>
             <b:if cond='data:post.dateHeader'>
               <h2 class='date-header'>
                 <span>
-                  <data:post.dateHeader />
+                  <data:post.dateHeader/>
                 </span>
               </h2>
             </b:if>
             <div class='date-posts'>
               <div class='post-outer'>
                 <div class='post hentry uncustomized-post-template'>
-                  <a expr:name='data:post.id' />
+                  <a expr:name='data:post.id'/>
                   <b:if cond='data:post.title'>
                     <h3 class='post-title entry-title'>
                       <b:if cond='data:post.link'>
                         <a expr:href='data:post.link'>
-                          <data:post.title />
+                          <data:post.title/>
                         </a>
-                        <b:else />
+                        <b:else/>
                         <b:if cond='data:post.url'>
                           <b:if cond='data:blog.url != data:post.url'>
                             <a expr:href='data:post.url'>
-                              <data:post.title />
+                              <data:post.title/>
                             </a>
-                            <b:else />
-                            <data:post.title />
+                            <b:else/>
+                            <data:post.title/>
                           </b:if>
-                          <b:else />
-                          <data:post.title />
+                          <b:else/>
+                          <data:post.title/>
                         </b:if>
                       </b:if>
                     </h3>
                   </b:if>
                   <div class='post-header'>
-                    <div class='post-header-line-1' />
+                    <div class='post-header-line-1'/>
                   </div>
                   <div class='post-body entry-content' expr:id='"post-body-" + data:post.id'>
-                    <data:post.body />
-                    <div style='clear: both;' />
+                    <data:post.body/>
+                    <div style='clear: both;'/>
                     <!-- clear for photos floats -->
                   </div>
                   <div class='post-footer'>
@@ -564,23 +564,23 @@
                           <b:if cond='data:post.authorProfileUrl'>
                             <span class='fn'>
                               <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
-                                <data:post.author />
+                                <data:post.author/>
                               </a>
                             </span>
-                            <b:else />
+                            <b:else/>
                             <span class='fn'>
-                              <data:post.author />
+                              <data:post.author/>
                             </span>
                           </b:if>
                         </b:if>
                       </span>
                       <span class='post-timestamp'>
                         <b:if cond='data:top.showTimestamp'>
-                          <data:top.timestampLabel />
+                          <data:top.timestampLabel/>
                           <b:if cond='data:post.url'>
                             <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'>
                               <abbr class='published' expr:title='data:post.timestampISO8601'>
-                                <data:post.timestamp />
+                                <data:post.timestamp/>
                               </abbr>
                             </a>
                           </b:if>
@@ -592,10 +592,10 @@
                             <b:if cond='data:post.allowComments'>
                               <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
                                 <b:if cond='data:post.numComments == 1'>1
-                                <data:top.commentLabel />
-                                <b:else />
-                                <data:post.numComments />
-                                <data:top.commentLabelPlural /></b:if>
+                                <data:top.commentLabel/>
+                                <b:else/>
+                                <data:post.numComments/>
+                                <data:top.commentLabelPlural/></b:if>
                               </a>
                             </b:if>
                           </b:if>
@@ -606,13 +606,13 @@
                       <b:if cond='data:top.showMobileShare'>
                         <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
                           <a href='javascript:void(0);'>
-                            <data:shareMsg />
+                            <data:shareMsg/>
                           </a>
                         </div>
                       </b:if>
                       <b:if cond='data:top.showDummy'>
                         <div class='goog-inline-block dummy-container'>
-                          <data:post.dummyTag />
+                          <data:post.dummyTag/>
                         </div>
                       </b:if>
                     </div>
@@ -620,16 +620,16 @@
                 </div>
                 <b:if cond='data:blog.pageType == "static_page"'>
                   <b:if cond='data:post.showThreadedComments'>
-                    <b:include data='post' name='threaded_comments' />
-                    <b:else />
-                    <b:include data='post' name='comments' />
+                    <b:include data='post' name='threaded_comments'/>
+                    <b:else/>
+                    <b:include data='post' name='comments'/>
                   </b:if>
                 </b:if>
                 <b:if cond='data:blog.pageType == "item"'>
                   <b:if cond='data:post.showThreadedComments'>
-                    <b:include data='post' name='threaded_comments' />
-                    <b:else />
-                    <b:include data='post' name='comments' />
+                    <b:include data='post' name='threaded_comments'/>
+                    <b:else/>
+                    <b:include data='post' name='comments'/>
                   </b:if>
                 </b:if>
               </div>
@@ -640,37 +640,37 @@
           <b:if cond='data:post.editUrl'>
             <span expr:class='"item-control " + data:post.adminClass'>
               <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-                <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18' />
+                <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
               </a>
             </span>
           </b:if>
         </b:includable>
         <b:includable id='main' var='top'>
-          <b:include data='top' name='status-message' />
+          <b:include data='top' name='status-message'/>
           <div id='entries'>
             <b:loop values='data:posts' var='post'>
               <!-- Want navigation at the top on item pages, since comments can push the bottom one too far -->
               <b:if cond='data:blog.pageType == "item"'>
-                <b:include name='nextprev' />
+                <b:include name='nextprev'/>
               </b:if>
-              <b:include data='post' name='post' />
+              <b:include data='post' name='post'/>
               <b:if cond='data:blog.pageType == "item"'>
-                <b:include data='post' name='comments' />
+                <b:include data='post' name='comments'/>
               </b:if>
             </b:loop>
           </div>
           <!-- Bottom navigation for all pages -->
-          <b:include name='nextprev' />
+          <b:include name='nextprev'/>
         </b:includable>
         <b:includable id='commentDeleteIcon' var='comment'>
           <span expr:class='"item-control " + data:comment.adminClass'>
             <b:if cond='data:showCmtPopup'>
               <div class='goog-toggle-button'>
-                <div class='goog-inline-block comment-action-icon' />
+                <div class='goog-inline-block comment-action-icon'/>
               </div>
-              <b:else />
+              <b:else/>
               <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
-                <img src='//www.blogger.com/img/icon_delete13.gif' />
+                <img src='//www.blogger.com/img/icon_delete13.gif'/>
               </a>
             </b:if>
           </span>
@@ -680,16 +680,16 @@
             <!-- Blog feed links -->
             <b:if cond='data:feedLinks'>
               <div class='blog-feeds'>
-                <b:include data='feedLinks' name='feedLinksBody' />
+                <b:include data='feedLinks' name='feedLinksBody'/>
               </div>
             </b:if>
-            <b:else />
+            <b:else/>
             <!--Post feed links -->
             <div class='post-feeds'>
               <b:loop values='data:posts' var='post'>
                 <b:if cond='data:post.allowComments'>
                   <b:if cond='data:post.feedLinks'>
-                    <b:include data='post.feedLinks' name='feedLinksBody' />
+                    <b:include data='post.feedLinks' name='feedLinksBody'/>
                   </b:if>
                 </b:if>
               </b:loop>
@@ -698,35 +698,35 @@
         </b:includable>
         <b:includable id='threaded-comment-form' var='post'>
           <div class='comment-form'>
-            <a name='comment-form' />
+            <a name='comment-form'/>
             <b:if cond='data:mobile'>
               <p>
-                <data:blogCommentMessage />
+                <data:blogCommentMessage/>
               </p>
-              <data:blogTeamBlogMessage />
-              <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src' />
-              <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%' />
-              <b:else />
+              <data:blogTeamBlogMessage/>
+              <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+              <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+              <b:else/>
               <p>
-                <data:blogCommentMessage />
+                <data:blogCommentMessage/>
               </p>
-              <data:blogTeamBlogMessage />
-              <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src' />
-              <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%' />
+              <data:blogTeamBlogMessage/>
+              <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+              <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
             </b:if>
-            <data:post.friendConnectJs />
-            <data:post.cmtfpIframe />
+            <data:post.friendConnectJs/>
+            <data:post.cmtfpIframe/>
             <script type='text/javascript'>BLOG_CMT_createIframe('
-            <data:post.appRpcRelayPath />', '
-            <data:post.communityId />');</script>
+            <data:post.appRpcRelayPath/>', '
+            <data:post.communityId/>');</script>
           </div>
         </b:includable>
         <b:includable id='commentsHeader' var='post'>
           <h4>
             <b:if cond='data:post.numComments == 1'>
               1 Comment
-            <b:else />
-              <data:post.numComments /> Comments
+            <b:else/>
+              <data:post.numComments/> Comments
             </b:if>
           </h4>
         </b:includable>
@@ -738,31 +738,31 @@
             <b:if cond='data:post.dateHeader'>
               <div class='date-header'>
                 <span>
-                  <data:post.dateHeader />
+                  <data:post.dateHeader/>
                 </span>
               </div>
             </b:if>
             <div class='mobile-post-outer'>
               <a expr:href='data:post.url'>
                 <h3 class='mobile-index-title entry-title'>
-                  <data:post.title />
+                  <data:post.title/>
                 </h3>
                 <div class='mobile-index-arrow'>&amp;rsaquo;</div>
                 <div class='mobile-index-contents'>
                   <b:if cond='data:post.thumbnailUrl'>
                     <div class='mobile-index-thumbnail'>
                       <div class='Image'>
-                        <img expr:src='data:post.thumbnailUrl' />
+                        <img expr:src='data:post.thumbnailUrl'/>
                       </div>
                     </div>
                   </b:if>
                   <div class='post-body'>
                     <b:if cond='data:post.snippet'>
-                      <data:post.snippet />
+                      <data:post.snippet/>
                     </b:if>
                   </div>
                 </div>
-                <div style='clear: both;' />
+                <div style='clear: both;'/>
               </a>
               <div class='mobile-index-comment'>
                 <b:if cond='data:blog.pageType != "static_page"'>
@@ -770,10 +770,10 @@
                     <b:if cond='data:post.numComments != 0'>
                       <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
                         <b:if cond='data:post.numComments == 1'>1
-                        <data:top.commentLabel />
-                        <b:else />
-                        <data:post.numComments />
-                        <data:top.commentLabelPlural /></b:if>
+                        <data:top.commentLabel/>
+                        <b:else/>
+                        <data:post.numComments/>
+                        <data:top.commentLabelPlural/></b:if>
                       </a>
                     </b:if>
                   </b:if>
@@ -784,11 +784,11 @@
         </b:includable>
         <b:includable id='feedLinksBody' var='links'>
           <div class='feed-links'>
-            <data:feedLinksMsg />
+            <data:feedLinksMsg/>
             <b:loop values='data:links' var='f'>
               <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'>
-              <data:f.name />(
-              <data:f.feedType />)</a>
+              <data:f.name/>(
+              <data:f.feedType/>)</a>
             </b:loop>
           </div>
         </b:includable>
@@ -797,7 +797,7 @@
             <b:if cond='data:post.allowComments'>
               <!-- No need for a useless "0 comments" header -->
               <b:if cond='data:post.numComments &gt; 0'>
-                <b:include data='post' name='commentsHeader' />
+                <b:include data='post' name='commentsHeader'/>
               </b:if>
               <div id='comments-block'>
                 <b:loop values='data:post.comments' var='comment'>
@@ -805,37 +805,37 @@
                     <div class='comment-body'>
                       <b:if cond='data:comment.isDeleted'>
                         <span class='deleted-comment'>
-                          <data:comment.body />
+                          <data:comment.body/>
                         </span>
-                        <b:else />
-                        <data:comment.body />
+                        <b:else/>
+                        <data:comment.body/>
                       </b:if>
                     </div>
                     <div class='comment-footer'>
                       <span class='comment-author'>Posted by:
                       <b:if cond='data:comment.authorUrl'>
                         <a expr:href='data:comment.authorUrl' rel='nofollow'>
-                          <data:comment.author />
+                          <data:comment.author/>
                         </a>
-                        <b:else />
-                        <data:comment.author />
+                        <b:else/>
+                        <data:comment.author/>
                       </b:if></span>
                       <span class='comment-timestamp'>
                         <a expr:href='"#comment-" + data:comment.id' title='comment permalink'>
-                          <data:comment.timestamp />
+                          <data:comment.timestamp/>
                         </a>
                       </span>
-                      <b:include data='comment' name='commentDeleteIcon' />
+                      <b:include data='comment' name='commentDeleteIcon'/>
                     </div>
                   </div>
                 </b:loop>
               </div>
               <b:if cond='data:post.embedCommentForm'>
-                <b:include data='post' name='comment-form' />
-                <b:else />
+                <b:include data='post' name='comment-form'/>
+                <b:else/>
                 <b:if cond='data:post.allowComments'>
                   <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
-                    <data:postCommentMsg />
+                    <data:postCommentMsg/>
                   </a>
                 </b:if>
               </b:if>
@@ -855,11 +855,11 @@
                     <a class='toggle' href='javascript:void(0)'>
                       <span class='zippy toggle-open'>▼&#160;</span>
                     </a>
-                    <b:else />
+                    <b:else/>
                     <a class='toggle' href='javascript:void(0)'>
                       <span class='zippy'>
                         <b:if cond='data:blog.languageDirection == "rtl"'>◄&#160;
-                        <b:else />►&#160;</b:if>
+                        <b:else/>►&#160;</b:if>
                       </span>
                     </a>
                   </b:if>
@@ -874,11 +874,11 @@
                   <b:if cond='data:i.name &gt;= 2008'>
                     <b:if cond='data:i.name == "2012"'>
                       <td class='bottom-group-start'>
-                        <b:include data='i' name='yearArchive' />
+                        <b:include data='i' name='yearArchive'/>
                       </td>
-                      <b:else />
+                      <b:else/>
                       <td>
-                        <b:include data='i' name='yearArchive' />
+                        <b:include data='i' name='yearArchive'/>
                       </td>
                     </b:if>
                   </b:if>
@@ -894,10 +894,10 @@
                       <b:if cond='data:i.name &lt; 2008'>
                         <li>
                           <a class='post-count-link' expr:href='data:i.url'>
-                            <data:i.name />
+                            <data:i.name/>
                           </a>
                           <span class='post-count'>
-                          (<data:i.post-count />)</span>
+                          (<data:i.post-count/>)</span>
                         </li>
                       </b:if>
                     </b:loop>
@@ -907,12 +907,12 @@
               <b:includable id='menu' var='data'>
                 <select expr:id='data:widget.instanceId + "_ArchiveMenu"'>
                   <option value=''>
-                    <data:title />
+                    <data:title/>
                   </option>
                   <b:loop values='data:data' var='i'>
                     <option expr:value='data:i.url'>
-                      <data:i.name />
-                      (<data:i.post-count />)
+                      <data:i.name/>
+                      (<data:i.post-count/>)
                     </option>
                   </b:loop>
                 </select>
@@ -922,9 +922,9 @@
                   <b:loop values='data:data' var='i'>
                     <li class='archivedate'>
                       <a expr:href='data:i.url'>
-                        <data:i.name />
+                        <data:i.name/>
                       </a>
-                      (<data:i.post-count />)
+                      (<data:i.post-count/>)
                     </li>
                   </b:loop>
                 </ul>
@@ -934,7 +934,7 @@
                   <b:loop values='data:posts' var='i'>
                     <li>
                       <a expr:href='data:i.url'>
-                        <data:i.title />
+                        <data:i.title/>
                       </a>
                     </li>
                   </b:loop>
@@ -943,48 +943,48 @@
               <b:includable id='yearArchive' var='i'>
                 <h3>
                   <a class='post-count-link' expr:href='data:i.url'>
-                    <data:i.name />
+                    <data:i.name/>
                   </a>
-                  <span class='post-count'>(<data:i.post-count />)</span>
+                  <span class='post-count'>(<data:i.post-count/>)</span>
                 </h3>
                 <ul class='year-archive'>
                   <!-- Month loop -->
                   <b:loop values='data:i.data' var='j'>
                     <li>
                       <a class='post-count-link' expr:href='data:j.url'>
-                        <data:j.name />
+                        <data:j.name/>
                       </a>
-                      <span class='post-count'>(<data:j.post-count />)</span>
+                      <span class='post-count'>(<data:j.post-count/>)</span>
                     </li>
                   </b:loop>
                 </ul>
               </b:includable>
               <b:includable id='main'>
-                <b:include data='data' name='interval' />
+                <b:include data='data' name='interval'/>
               </b:includable>
             </b:widget>
           </b:section>
-          <td class='bottom-gap' />
+          <td class='bottom-gap'/>
           <td class='bottom-group-start bottom-group-end'>
             <b:section class='labels' id='labels' showaddelement='no'>
               <b:widget id='Label1' locked='false' title='Labels' type='Label'>
                 <b:includable id='main'>
                   <b:if cond='data:title'>
                     <h3>
-                      <data:title />
+                      <data:title/>
                     </h3>
                   </b:if>
                   <ul class='year-archive'>
                     <b:loop values='data:labels' var='label'>
                       <li>
                         <b:if cond='data:blog.url == data:label.url'>
-                          <data:label.name />
-                          <b:else />
+                          <data:label.name/>
+                          <b:else/>
                           <a expr:href='data:label.url'>
-                            <data:label.name />
+                            <data:label.name/>
                           </a>
                         </b:if>
-                        (<data:label.count />)
+                        (<data:label.count/>)
                       </li>
                     </b:loop>
                   </ul>
@@ -992,19 +992,19 @@
               </b:widget>
             </b:section>
           </td>
-          <td class='bottom-gap' />
+          <td class='bottom-gap'/>
           <td class='bottom-group-start bottom-group-end'>
             <b:section class='about-me' id='about-me' showaddelement='no'>
               <b:widget id='Profile1' locked='false' title='About Me' type='Profile'>
                 <b:includable id='main'>
                   <b:if cond='data:photo.url != ""'>
                     <a expr:href='data:userUrl'>
-                      <img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width' />
+                      <img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/>
                     </a>
                   </b:if>
                   <b:if cond='data:title != ""'>
                     <h3>
-                      <data:title />
+                      <data:title/>
                     </h3>
                   </b:if>
                   <p>I am Mihai Parparita and can be reached at
@@ -1036,6 +1036,6 @@
         </tr>
       </table>
     </div>
-    <b:section class='footer' id='footer' preferred='yes' />
+    <b:section class='footer' id='footer' preferred='yes'/>
   </body>
 </html>
