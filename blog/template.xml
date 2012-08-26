@@ -35,6 +35,33 @@
     </script>
   </head>
   <body>
+    <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
+      <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
+        <b:includable id='main'>
+          &lt;script type=&quot;text/javascript&quot;&gt;
+          function setAttributeOnload(object, attribute, val) {
+            if(window.addEventListener) {
+              window.addEventListener(&#39;load&#39;,
+                function(){ object[attribute] = val; }, false);
+            } else {
+              window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
+            }
+          }
+          &lt;/script&gt;
+          &lt;iframe src=&quot;//www.blogger.com/navbar.g?targetBlogID=6525469191850690957&amp;amp;blogName=persistent.info&amp;amp;publishMode=PUBLISH_MODE_HOSTED&amp;amp;navbarType=BLACK&amp;amp;layoutType=LAYOUTS&amp;amp;searchRoot=http://blog.persistent.info/search&amp;amp;blogLocale=en_US&amp;amp;v=1&amp;amp;homepageUrl=http://blog.persistent.info/&amp;amp;vt=-7250195885355391671&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;30px&quot; width=&quot;100%&quot; id=&quot;navbar-iframe&quot; allowtransparency=&quot;true&quot; title=&quot;Blogger Navigation and Search&quot;&gt;&lt;/iframe&gt;
+          &lt;div&gt;&lt;/div&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+          (function() {
+          var script = document.createElement(&#39;script&#39;);
+          script.type = &#39;text/javascript&#39;;
+          script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+          var head = document.getElementsByTagName(&#39;head&#39;)[0];
+          if (head) {
+          head.appendChild(script);
+          }})();
+        &lt;/script&gt;
+        </b:includable>
+      </b:widget>
+    </b:section>
     <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
       <b:widget id='Header1' locked='true' title='persistent.info (Header)' type='Header'>
         <b:includable id='title'>
@@ -1020,7 +1047,7 @@
                   <a href='https://www.facebook.com/mihai.parparita' rel='me'>Facebook</a>,
                   <a href='http://foursquare.com/user/mihai' rel='me'>Foursquare</a>,
                   <a href='https://github.com/mihaip' rel='me'>GitHub</a>,
-                  <a href='http://profiles.google.com/mihai.parparita' rel='me'>Google Plus</a>,
+                  <a href='https://plus.google.com/+MihaiParparita' rel='me'>Google+</a>,
                   <a href='http://code.google.com/u/mihai.parparita/' rel='me'>Google Project Hosting</a>, and
                   <a href='https://twitter.com/mihai' rel='me'>Twitter</a>
                   (update frequency/abandonment rate varies).</p>
