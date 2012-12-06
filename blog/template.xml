@@ -1037,6 +1037,7 @@
                   <p>I am Mihai Parparita and can be reached at
                   <script type='text/javascript'>printEmail()</script>.</p>
                   <p>Things I've done/had a hand in that you might have heard of:
+                  <a href='http://developer.chrome.com/apps'>Chrome Apps</a>,
                   <a href='http://www.google.com/reader'>Google Reader</a>,
                   <a href='http://www.mscape.com/products/iconographer.html'>Iconographer</a>,
                   <a href='http://persistent.info/overplot/'>Overplot</a>, and
@@ -1054,8 +1055,6 @@
                   <p>All code on this is licensed under a <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
                   unless otherwise specified. All content is licensed under a
                   <a href='http://creativecommons.org/licenses/by/3.0/' rel='license'>Creative Commons Attribution 3.0 License</a>.</p>
-                  <p>This is my personal blog. The views expressed on these pages are mine alone and not those of
-                  <a href='http://www.google.com/'>my employer</a>.</p>
                 </b:includable>
               </b:widget>
             </b:section>
