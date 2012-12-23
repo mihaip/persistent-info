@@ -24,11 +24,6 @@ div, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* Firefox seems to need this, otherwise the navbar area is too tall */
-#Navbar1 {
-  height: 30px;
-}
-
 /* Banner title */
 #banner {
   background: url(http://persistent.info/blogger-files/banner-title-background.gif) repeat-x;
@@ -78,6 +73,26 @@ div, h1, h2, h3, h4, h5, h6 {
 #banner-links #banner-subscribe-link {
   padding-left: 19px;
   background: url(http://persistent.info/blogger-files/banner-subscribe-icon.gif) no-repeat center left;
+}
+
+#search-form {
+  float: right;
+  padding: 3px 21px 3px 0;
+}
+
+#search-form #query {
+  border: solid 1px #666;
+  padding: 2px;
+  width: 122px;
+}
+
+#search-form #submit {
+  color: #d62;
+  background: #444;
+  border: solid 1px #666;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2px 5px;
 }
 
 /* Status message */
