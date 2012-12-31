@@ -917,7 +917,7 @@
                 <b:includable id='main'>
                   <b:if cond='data:photo.url != ""'>
                     <a expr:href='data:userUrl'>
-                      <img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/>
+                      <img class='profile-img' expr:alt='data:photo.alt' expr:src='data:photo.url' height='128' width='128'/>
                     </a>
                   </b:if>
                   <b:if cond='data:title != ""'>
