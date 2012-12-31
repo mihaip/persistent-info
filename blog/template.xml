@@ -47,27 +47,9 @@
   <body>
     <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
       <b:widget id='Header1' locked='true' title='persistent.info (Header)' type='Header'>
-        <b:includable id='title'>
-          <b:if cond='data:blog.url == data:blog.homepageUrl'>
-            <data:title/>
-            <b:else/>
-            <a expr:href='data:blog.homepageUrl'>
-              <data:title/>
-            </a>
-          </b:if>
-        </b:includable>
-        <b:includable id='description'>
-          <div class='descriptionwrapper'>
-            <p class='description'>
-              <span>
-                <data:description/>
-              </span>
-            </p>
-          </div>
-        </b:includable>
         <b:includable id='main'>
           <div id='banner'>
-            <a href='http://blog.persistent.info/'>
+            <a href='http://blog.persistent.info/' id="title-link">
               <h1 id='title'>
                 <span>
                   <data:title/>
@@ -76,25 +58,29 @@
             </a>
           </div>
 
-          <form action="/search" method="GET" id="search-form">
-            <input name="q" type="text" id="query"/>
-            <input value="Search" type="submit" id="submit"/>
-          </form>
+          <div id="top-nav">
+            <div id="top-nav-inner">
+              <form action="/search" method="GET" id="search-form">
+                <input name="q" type="text" id="query"/>
+                <input value="Search" type="submit" id="submit"/>
+              </form>
 
-          <ul id='banner-links'>
-            <li>
-              <a href='#about-me'>About</a>
-            </li>
-            <li>
-              <a href='#archive'>Archives</a>
-            </li>
-            <li>
-              <a href='http://feeds.feedburner.com/PersistentInfo' id='banner-subscribe-link'>Subscribe</a>
-            </li>
-            <li>
-              <script type='text/javascript'>printEmail("Contact")</script>
-            </li>
-          </ul>
+              <ul id='banner-links'>
+                <li>
+                  <a href='#about-me'>About</a>
+                </li>
+                <li>
+                  <a href='#archive'>Archives</a>
+                </li>
+                <li>
+                  <a href='http://feeds.feedburner.com/PersistentInfo' id='banner-subscribe-link'>Subscribe</a>
+                </li>
+                <li>
+                  <script type='text/javascript'>printEmail("Contact")</script>
+                </li>
+              </ul>
+            </div>
+          </div>
         </b:includable>
       </b:widget>
     </b:section>
