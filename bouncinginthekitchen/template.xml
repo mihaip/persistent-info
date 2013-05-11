@@ -276,6 +276,10 @@ h2, h3 {
   list-style-type: none;
 }
 
+.sidebar .tweets {
+  margin-left: 1em;
+}
+
 .sidebar li {
   padding: 0;
   margin: 0 0 10px 0;
@@ -1400,11 +1404,17 @@ head.appendChild(script);
               <b:includable id='main'>
                 <b:if cond='data:title'>
                   <h2>
-                    <a href='http://twitter.com/annverbin' rel='me'><data:title/></a>
+                    <a href='http://twitter.com/annparparita' rel='me'><data:title/></a>
                   </h2>
                 </b:if>
                 <div class='widget-content'>
-                  <data:content/>
+                  <div class="activity tweets">
+                  <a class="twitter-timeline" href="https://twitter.com/annparparita"
+                      data-widget-id="333011394893058048"
+                      data-link-color="#666666"
+                      data-chrome="noheader nofooter noborders noscrollbar transparent"
+                      data-tweet-limit="1">Recent tweets</a>
+                  </div>
                 </div>
               </b:includable>
             </b:widget>
@@ -1545,6 +1555,7 @@ head.appendChild(script);
       }
 
       addScript(&#39;http://persistent.info/bouncinginthekitchen/widgets.js&#39;);
+      addScript('http://platform.twitter.com/widgets.js');
 
       var _gaq = _gaq || [];
       _gaq.push([&#39;_setAccount&#39;, &#39;UA-15511742-1&#39;]);
