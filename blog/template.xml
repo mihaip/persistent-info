@@ -442,7 +442,7 @@
               <data:blogCommentMessage/>
             </p>
             <div id='comment-iframe-container'>
-              <iframe allowtransparency='true' expr:src='data:post.commentFormIframeSrc' frameborder='0' height='190' id='comment-editor' scrolling='auto' width='100%'/>
+              <iframe allowtransparency='true' expr:src='data:post.commentFormIframeSrc' frameborder='0' height='210' id='comment-editor' scrolling='auto' width='100%'/>
             </div>
           </div>
         </b:includable>
