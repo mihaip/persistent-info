@@ -1418,17 +1418,26 @@ head.appendChild(script);
                 </div>
               </b:includable>
             </b:widget>
-            <b:widget id='HTML5' locked='false' title='Blogs I Read' type='HTML'>
+            <b:widget id='BlogList1' locked='false' title='Blogs I Read' type='BlogList'>
               <b:includable id='main'>
-  <b:if cond='data:title'>
-    <h2>
-      <a href='http://www.google.com/reader/bundle/user/00302724078372822531/bundle/Blogroll'><data:title/></a>
-    </h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
+                <!-- only display title if it's non-empty -->
+                <b:if cond='data:title != &quot;&quot;'>
+                  <h2 class='title'>
+                    <data:title/>
+                  </h2>
+                </b:if>
+                <div class='widget-content'>
+                  <div class='blog-list-container' expr:id='data:widget.instanceId + &quot;_container&quot;'>
+                    <ul id="blogroll">
+                      <b:loop values='data:items' var='item'>
+                        <li>
+                          <a expr:href='data:item.blogUrl' target='_blank'><data:item.blogTitle/></a>
+                        </li>
+                      </b:loop>
+                    </ul>
+                  </div>
+                </div>
+              </b:includable>
             </b:widget>
             <b:widget id='BlogArchive1' locked='false' title='Archives' type='BlogArchive'>
               <b:includable id='main'>
@@ -1554,7 +1563,6 @@ head.appendChild(script);
             document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(node);
       }
 
-      addScript(&#39;http://persistent.info/bouncinginthekitchen/widgets.js&#39;);
       addScript('http://platform.twitter.com/widgets.js');
 
       var _gaq = _gaq || [];
