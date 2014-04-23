@@ -17,6 +17,25 @@
     <b:skin>
       <![CDATA[]]>
     </b:skin>
+
+    <b:if cond='data:blog.pageType != "index"'>
+      <meta property='og:site_name' expr:content='data:blog.title'/>
+      <meta property='og:title' expr:content='data:blog.pageName'/>
+      <meta property='og:type' content='article'/>
+    <b:else/>
+      <meta property='og:title' expr:content='data:blog.title'/>
+      <meta property='og:type' content='blog'/>
+    </b:if>
+    <meta property='og:url' expr:content='data:blog.canonicalUrl' />
+    <b:if cond='data:blog.metaDescription'>
+      <meta property='og:description' expr:content='data:blog.metaDescription'/>
+    </b:if>
+    <b:if cond='data:blog.postImageThumbnailUrl'>
+      <meta itemprop='image' expr:content='data:blog.postImageThumbnailUrl'/>
+    <b:else/>
+      <meta property='og:image' content='http://persistent.info/blogger-files/logo.png'/>
+    </b:if>
+
     <script type='text/javascript'>
       //<![CDATA[
       function printEmail(opt_anchorText) {
