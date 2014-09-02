@@ -437,9 +437,9 @@
                   </b:if>
                 </b:if>
               </div>
-              <div class='entry-body'>
+              <article class='entry-body'>
                 <data:post.body/>
-              </div>
+              </article>
             </div>
           </div>
         </b:includable>
