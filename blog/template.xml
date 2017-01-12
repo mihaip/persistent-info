@@ -958,6 +958,6 @@
       </table>
     </div>
     <b:section class='footer' id='footer' preferred='yes'/>
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
   </body>
 </html>
