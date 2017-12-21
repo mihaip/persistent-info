@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume: Mihai Parparita</title>
+  <script>
+    function printEmail() {
+      var a = [109,105,104,97,105,64,112,101,114,115,105,115,116,101,110,116,46,105,110,102,111];
+      var b = '';
+      for (var i = 0; i < a.length; i++) {
+        b += String.fromCharCode(a[i]);
+      }
+      document.write('<' + 'a href="mailto:' + b + '">' + b + '<' + '/a>');
+    }
+  </script>
+  <style>
+  ul {
+    list-style-type: square;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #name {
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+  }
+
+  #email {
+    font-size: 1em;
+  }
+
+  #contact{
+    float: right;
+    text-align: right;
+  }
+
+  #contact #phone {
+    margin-top: 1em;
+  }
+
+  .column1 {
+    width: 50%;
+    float: left;
+  }
+
+  .column2 {
+    width: 50%;
+    position: absolute;
+    right: 0;
+  }
+
+  .section {
+    clear: both;
+    padding: 0.5em 0em 0.4em 0em;
+  }
+
+  .section h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-transform: lowercase;
+    margin: 0;
+    border-bottom: solid 1px #ccc;
+  }
+
+  .section .contents {
+    margin: 0.5em 0 0 1em;
+    overflow: hidden;
+  }
+
+  .school {
+    white-space: nowrap;
+  }
+
+  .school .info {
+    font-size: 0.9em;
+  }
+
+  .school .class {
+    font-style: italic;
+  }
+
+  .jobs {
+    border-spacing: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .jobs td {
+    padding: 0;
+  }
+
+  .job .info {
+    padding-top: 1.0em;
+    text-align: right;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+
+  .job .info h2 {
+    margin: 0 0 0.2em 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .job .info .dates {
+    font-style: italic;
+  }
+
+  .job .accomplishments {
+    padding-top: 1.0em;
+    vertical-align: top;
+    padding-left: 1em;
+  }
+
+  .job .accomplishments h3 {
+    font-size: 1em;
+    margin: 0.5em 0 .1em 0;
+  }
+
+  .job .accomplishments h3:first-child {
+    margin-top: 0;
+  }
+
+  .job .accomplishments ul {
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+  }
+
+  .skills {
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .skills ul {
+    padding: 0;
+    margin: 0 0 0 3em;
+  }
+
+  @media screen {
+    a {
+      border-bottom: dotted 1px #00f;
+      color: #00f;
+      text-decoration: none;
+      line-height: 20px;
+    }
+
+    h2 a,
+    h3 a {
+      color: #00a;
+      border-bottom-color: #00a;
+    }
+
+    a:hover {
+      border-bottom-style: solid;
+    }
+
+    #footer {
+      display: none;
+    }
+  }
+
+  @media print {
+    a {
+      color: #000;
+      text-decoration: none;
+      border: 0;
+    }
+
+    #footer {
+      text-align: center;
+      font-size: 0.8em;
+
+      border-top: solid 1px #ccc;
+      padding-top: 0.5em;
+      margin-top: 0.7em;
+
+      color: #aaa;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-size: 0.9em;
+    }
+  }
+  </style>
+</head>
+<body>
+
+  <!--<div id="contact">
+    <div id="address">
+      1600 Amphitheatre Parkway<br />
+      Mountain View, CA 94043
+    </div>
+    <div id="phone">
+      (650) 253-0935
+    </div>
+  </div>-->
+
+  <div id="title">
+    <div id="name">
+      Mihai Parparita
+    </div>
+
+    <div id="email">
+      <script>printEmail();</script>
+      <noscript>
+        <p>My email address is my first name [at] this site's domain (please enable JavaScript to see it).</p>
+      </noscript>
+    </div>
+  </div>
+
+  <!--<div class="section">
+    <h1>Objective</h1>
+    <div class="contents">
+      I am not seeking a new position at this time.
+    </div>
+  </div>-->
+
+  <div class="section">
+    <h1>Work Experience</h1>
+    <div class="contents">
+
+      <table class="jobs">
+
+        <tr class="job">
+
+          <td class="info">
+            <h2>Quip</h2>
+            <span class="position">Engineer</span><br />
+            <span class="dates">November 2012 to Present</span>
+          </td>
+
+          <td class="accomplishments">
+            Did (and doing) many things. The <a href="http://blog.persistent.info/search/label/Quip">Quip</a> category of my blog has some details.
+          </td>
+
+        </tr>
+
+        <tr class="job">
+
+          <td class="info">
+            <h2>Google</h2>
+            <span class="position">Staff Software Engineer</span><br />
+            <span class="dates">August 2004 to November 2012</span>
+          </td>
+
+          <td class="accomplishments">
+            <h3><a href="http://www.google.com/chrome">Google Chrome</a> (2010-2012)</h3>
+            <ul>
+              <li>Focused on WebKit quality and reliability; fastest external contributor to become a <a href="http://webkit.org/blog/1418/mihai-parparita-is-now-a-webkit-reviewer/">WebKit reviewer</a>.</li>
+              <li>Improved and created <a href="http://trac.webkit.org/wiki/RebaselineServer">infrastructure</a> for the <a href="http://webkit.org/blog/1452/layout-tests-theory/">layout</a> <a href="http://webkit.org/blog/1456/layout-tests-practice/">test</a> regression-catching system.</li>
+              <li>Made several JavaScript events asynchronous (for performance and security), improved spec compliance of HTML5 history and canvas features.</li>
+              <li>Part of WebKit <a href="http://www.chromium.org/developers/how-tos/webkit-merge-1">gardener rotation</a> and other grungy work.</li>
+              <li>Tech lead of <a href="https://developer.chrome.com/apps/about_apps">Chrome Apps</a> and <a href="https://developer.chrome.com/extensions">Extensions</a>. Made several platform improvements and led the team that <a href="https://www.youtube.com/watch?v=j8oFAr1YR-0">launched</a> packaged apps at Google I/O 2012.</li>
+            </ul>
+
+            <h3><a href="http://reader.google.com/">Google Reader</a> (2005-2010)</h3>
+            <ul>
+              <li>Founding member of the team, and frontend tech lead since 2006.</li>
+              <li>Primary implementor of the <a href="http://googlereader.blogspot.com/2006/09/something-looks-different.html">redesigned user interface</a> that brought Reader <a href="http://www.readwriteweb.com/archives/google_reader_redesign.php">widespread</a> <a href="http://techcrunch.com/2006/09/28/google-reader-steps-it-up-with-new-version/">praise</a>.</li>
+              <li>Designed, implemented and maintained Reader's <a href="http://www.google.com/ig/directory?url=www.google.com/ig/modules/reader.xml">iGoogle gadget</a> and the <a href="http://googlereader.blogspot.com/2007/01/i-like-big-charts-and-i-cannot-lie.html">trends</a> feature.</li>
+              <li>Co-designed and implemented the <a href="http://googlereader.blogspot.com/2007/12/reader-and-talk-are-friends.html">first friends functionality</a> in Reader, which increased sharing by 25%.</li>
+              <li>Implemented several "engineer productivity" features (automatic recompilation of JavaScript, templates and CSS in development, automatic flagging of duplicate RPCs, logging of RPCs per HTTP request).</li>
+              <li>Ported Reader to the <a href="http://code.google.com/closure/library/">Closure Library</a> and <a href="http://code.google.com/closure/compiler/">Closure Compiler</a> and <a href="http://blog.persistent.info/2009/11/google-reader-and-closure-tools.html">contributed</a> to both.</li>
+              <li>Implemented <a href="http://googlereader.blogspot.com/2008/12/square-is-new-round.html">a reskinned user interface</a> that later became the standard for <a href="http://gmailblog.blogspot.com/2010/08/updates-to-contacts-and-slightly-new.html">other</a> <a href="http://gmailblog.blogspot.com/2010/05/new-look-for-google-calendar.html">Google apps</a>.</li>
+              <li>Performed and released <a href="http://googlereader.blogspot.com/2006/08/namespaced-extensions-in-feeds.html">data</a> <a href="http://googlereader.blogspot.com/2005/12/xml-errors-in-feeds.html">analyses</a> of interest to developers and <a href="http://groups.google.com/groups/profile?show=more&enc_user=pE75fREAAADMFWZku08thrXAOySdaeRIkdEasx1kiYTQavV7mdW13Q&group=fougrapi">aided</a> several third-party developers.</li>
+              <li>Implemented part of <a href="http://googlereader.blogspot.com/2009/08/pubsubhubbub-support-for-reader-shared.html">PubSubHubbub support</a> for Reader shared items.</li>
+              <li>Co-designed and implemented Reader <a href="http://googlereader.blogspot.com/2010/02/readers-get-your-buzz-on.html">integration</a> with Buzz comments.</li>
+              <li>Implemented backend improvements that reduced CPU usage and storage layer lookups by 50%.</li>
+              <li>Implemented frontend and UI performance improvements that reduced startup time by 45%. Created dashboard and improved tracking of performance issues.</li>
+            </ul>
+
+            <h3><a href="http://adwords.google.com/">AdWords Frontend</a> (2004-2005)</h3>
+            <ul>
+              <li>Joined Notification Center (feature that allows customer representatives to receive account alerts) halfway through development. Closed 150 bugs (roughly half in a 4 week period leading up to the initial launch).</li>
+              <li>Tracked down several performance issues, implemented monitoring dashboard.</li>
+              <li>Co-designed and implemented the external version of the Notification Center described above (launched as Account Snapshot), one of the first AJAX-y user-facing features in the AdWords frontend.</li>
+              <li>Part of build cop rotation for the ads frontend (spanning several timezones and 100 engineers).</li>
+            </ul>
+          </td>
+
+        </tr>
+
+        <tr class="job">
+
+          <td class="info">
+            <h2>VMware.</h2>
+            <span class="position">Performance Group - Intern</span><br />
+            <span class="dates">June to August 2003</span>
+          </td>
+
+          <td class="accomplishments">
+            <ul>
+              <li>Analyzed performance impact of VMotion, a key feature of VMware VirtualCenter, a brand-new product.</li>
+              <li>Investigated performance issues of server component of VirtualCenter.</li>
+            </ul>
+          </td>
+
+        </tr>
+
+        <tr class="job">
+
+          <td class="info">
+            <h2>Microsoft</h2>
+            <span class="position">Picture It!/MSN Photos - Intern</span><br />
+            <span class="dates">June to September 2002</span>
+          </td>
+
+          <td class="accomplishments">
+            <ul>
+              <li>Developed an add-in for Visual C++ .NET that allowed Javadoc-like functionality (documentation alongside the codebase, with browsable and searchable output formats).</li>
+              <li>Created three tools using ASP.NET and C# to help manage configuration files.</li>
+            </ul>
+          </td>
+
+        </tr>
+
+        <tr class="job">
+
+          <td class="info">
+            <h2>OIT - <a href="www.princeton.edu/WebMedia/">WebMedia</a></h2>
+            <span class="position">Web Specialist</span><br />
+            <span class="dates">February 2001 to June 2004</span>
+          </td>
+
+          <td class="accomplishments">
+            <ul>
+              <li>Automated broadcast site creation process using Perl.</li>
+              <li>Updated a legacy campus map system to have <a href="http://www.princeton.edu/~pumap/">a new interface</a> and administration system.</li>
+              <li>Created an email-based customizable subscription system for notifications.</li>
+            </ul>
+          </td>
+
+        </tr>
+
+        <tr class="job">
+
+          <td class="info">
+            <h2><a href="http://www.dailyprincetonian.com"/>The Daily Princetonian</a></h2>
+            <span class="position">Web Department - Online Editor</span><br />
+            <span class="dates">September 2000 to January 2004</span>
+          </td>
+
+          <td class="accomplishments">
+            <ul>
+              <li>Modified layout generation system using MySQL and server-side Java.</li>
+              <li>Extended publishing system to support the daily email delivery.</li>
+              <li>Designed online presence of The Prince Magazine, a weekly feature.</li>
+            </ul>
+          </td>
+
+        </tr>
+
+        <tr class="job">
+
+          <td class="info">
+            <h2><a href="http://www.mscape.com/">Mscape Software</a></h2>
+            <span class="dates">September 1998 to June 2004</span>
+          </td>
+
+          <td class="accomplishments">
+            <ul>
+              <li>Launched this personal software label - conceived and executed all aspects of product development.</li>
+              <li>Successfully transitioned flagship program, Iconographer, to Mac OS X.</li>
+              <li>Products have been favorably reviewed in MacAddict, MacWorld and several other magazines.</li>
+            </ul>
+          </td>
+
+        </tr>
+
+      </table>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h1>Education</h1>
+    <div class="contents">
+
+      <div class="column1">
+        <div class="school">
+          <span class="name">Princeton University</span> <span class="class">Class of 2004</span><br/>
+          <span class="info">3.82 GPA - Computer Science BSE (Magna Cum Laude)</span>
+        </div>
+      </div>
+
+      <div class="column2">
+        <div class="school">
+          <span class="name">St. Mary's International School (Tokyo)</span> <span class="class">Class of 2000</span><br/>
+          <span class="info">4.21 GPA - Valedictorian</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h1>Skills and Interests</h1>
+    <div class="contents">
+
+      <div class="skills">
+        <h2>Technical</h2>
+
+        <ul>
+          <li>Recent experience in C++, Java, Python and JavaScript.</li>
+          <li>Experience longer ago in Perl, C#, Matlab and MySQL.</li>
+          <li>Long-running personal technical blog at <a href="http://persistent.info/">persistent.info</a>.</li>
+        </ul>
+
+        <h2>Personal</h2>
+
+        <ul>
+          <li>Native-level knowledge of English, native speaker of Romanian, fluent in Japanese, passable French.</li>
+          <li>Interested in airplanes, digital photography, food and history.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    The latest version of this r&eacute;sum&eacute; can be found at <a href="http://persistent.info/about/resume.html">http://persistent.info/about/resume.html</a>.
+  </div>
+
+</body>
+</html>
