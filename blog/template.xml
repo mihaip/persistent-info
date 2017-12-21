@@ -36,7 +36,7 @@
       <meta property='og:image' content='http://persistent.info/blogger-files/logo.png'/>
     </b:if>
 
-    <script type='text/javascript'>
+    <script>
       //<![CDATA[
       function printEmail(opt_anchorText) {
         var a = [109, 105, 104, 97, 105, 64, 112, 101, 114, 115, 105, 115, 116,
@@ -95,7 +95,7 @@
                   <a href='http://feeds.feedburner.com/PersistentInfo' id='banner-subscribe-link'>Subscribe</a>
                 </li>
                 <li>
-                  <script type='text/javascript'>printEmail("Contact")</script>
+                  <script>printEmail("Contact")</script>
                 </li>
               </ul>
             </div>
@@ -931,7 +931,7 @@
                     </h3>
                   </b:if>
                   <p>I am Mihai Parparita and can be reached at
-                  <script type='text/javascript'>printEmail()</script>.</p>
+                  <script>printEmail()</script>.</p>
                   <p>Things I've done/had a hand in that you might have heard of:
                   <a href='https://quip.com/'>Quip</a>,
                   <a href='http://developer.chrome.com/apps'>Chrome Apps</a>,
@@ -942,10 +942,11 @@
                   I also have an <a href="http://persistent.info/about/resume.html">out-of-date resume</a> with a few more details.</p>
                   <p>I exist on
                   <a class='profile-link' expr:href='data:userUrl' rel='me'>Blogger</a>,
-                  <a href='https://www.facebook.com/mihai.parparita' rel='me'>Facebook</a>,
-                  <a href='http://foursquare.com/mihai' rel='me'>Foursquare</a>,
-                  <a href='https://github.com/mihaip' rel='me'>GitHub</a>,
                   <a href='https://twitter.com/mihai' rel='me'>Twitter</a>
+                  <a href='https://github.com/mihaip' rel='me'>GitHub</a>,
+                  <a href='https://www.facebook.com/mihai.parparita' rel='me'>Facebook</a>
+                  and
+                  <a href='http://foursquare.com/mihai' rel='me'>Foursquare</a>,
                   (update frequency/abandonment rate varies).</p>
                   <p>All code on this is licensed under a <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
                   unless otherwise specified. All content is licensed under a
