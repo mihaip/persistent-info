@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
@@ -30,8 +29,8 @@
     <b:if cond='data:blog.metaDescription'>
       <meta property='og:description' expr:content='data:blog.metaDescription'/>
     </b:if>
-    <b:if cond='data:blog.postImageThumbnailUrl'>
-      <meta itemprop='image' expr:content='data:blog.postImageThumbnailUrl'/>
+    <b:if cond='data:blog.postImageUrl'>
+      <meta property='og:image' expr:content='data:blog.postImageUrl'/>
     <b:else/>
       <meta property='og:image' content='http://persistent.info/blogger-files/logo.png'/>
     </b:if>
