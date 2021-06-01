@@ -26,12 +26,12 @@ div, h1, h2, h3, h4, h5, h6 {
 
 /* Banner title */
 #banner {
-  background: url(http://persistent.info/blogger-files/banner-title-background.gif) repeat-x;
+  background: url(https://persistent.info/blogger-files/banner-title-background.gif) repeat-x;
   height: 89px;
 }
 
 #title {
-  background: url(http://persistent.info/blogger-files/banner-title.gif);
+  background: url(https://persistent.info/blogger-files/banner-title.gif);
   width: 526px;
   height: 83px;
   margin-left: 21px;
@@ -43,7 +43,7 @@ div, h1, h2, h3, h4, h5, h6 {
 
 /* Top navigation */
 #top-nav {
-  background: url(http://persistent.info/blogger-files/banner-links-background.gif);
+  background: url(https://persistent.info/blogger-files/banner-links-background.gif);
   border-style: solid;
   border-width: 1px 0;
   border-color: #666;
@@ -77,7 +77,7 @@ div, h1, h2, h3, h4, h5, h6 {
 
 #banner-links #banner-subscribe-link {
   padding-left: 19px;
-  background: url(http://persistent.info/blogger-files/banner-subscribe-icon.gif) no-repeat center left;
+  background: url(https://persistent.info/blogger-files/banner-subscribe-icon.gif) no-repeat center left;
 }
 
 #search-form {

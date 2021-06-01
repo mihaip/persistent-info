@@ -4,15 +4,15 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta content='blogger' name='generator'/>
-    <link href='http://feeds.feedburner.com/PersistentInfo' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml'/>
+    <link href='https://feeds.feedburner.com/PersistentInfo' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml'/>
     <link href='http://blog.persistent.info/feeds/comments/default' rel='alternate' title='persistent.info - Comments Feed' type='application/atom+xml'/>
     <link href='http://www2.blogger.com/rsd.g?blogID=6525469191850690957' rel='EditURI' title='RSD' type='application/rsd+xml'/>
     <link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
     <title>
       <data:blog.pageTitle/>
     </title>
-    <link href='http://persistent.info/blogger-files/main.css' rel='stylesheet'/>
-    <link href='http://persistent.info/blogger-files/favicon.ico' rel='shortcut icon'/>
+    <link href='https://persistent.info/blogger-files/main.css' rel='stylesheet'/>
+    <link href='https://persistent.info/blogger-files/favicon.ico' rel='shortcut icon'/>
     <b:skin>
       <![CDATA[]]>
     </b:skin>
@@ -32,42 +32,15 @@
     <b:if cond='data:blog.postImageUrl'>
       <meta property='og:image' expr:content='data:blog.postImageUrl'/>
     <b:else/>
-      <meta property='og:image' content='http://persistent.info/blogger-files/logo.png'/>
+      <meta property='og:image' content='https://persistent.info/blogger-files/logo.png'/>
     </b:if>
-
-    <script>
-      //<![CDATA[
-      function printEmail(opt_anchorText) {
-        var a = [109, 105, 104, 97, 105, 64, 112, 101, 114, 115, 105, 115, 116,
-            101, 110, 116, 46, 105, 110, 102, 111];
-        var b = [];
-        for (var i = 0; i < a.length; i++) {
-          b.push(String.fromCharCode(a[i]));
-        }
-        b = b.join('');
-        document.write('<' + 'a href="mailto:' + b + '">' +
-                       (opt_anchorText || b) +
-                       '<' + '/a>');
-      }
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-144137-3']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-      //]]>
-    </script>
   </head>
   <body>
     <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
       <b:widget id='Header1' locked='true' title='persistent.info (Header)' type='Header'>
         <b:includable id='main'>
           <div id='banner'>
-            <a href='http://blog.persistent.info/' id="title-link">
+            <a href='https://blog.persistent.info/' id="title-link">
               <h1 id='title'>
                 <span>
                   <data:title/>
@@ -91,10 +64,10 @@
                   <a href='#archive'>Archives</a>
                 </li>
                 <li>
-                  <a href='http://feeds.feedburner.com/PersistentInfo' id='banner-subscribe-link'>Subscribe</a>
+                  <a href='https://feeds.feedburner.com/PersistentInfo' id='banner-subscribe-link'>Subscribe</a>
                 </li>
                 <li>
-                  <script>printEmail("Contact")</script>
+                  <a class="email">Contact</a>
                 </li>
               </ul>
             </div>
@@ -661,7 +634,7 @@
           <b:if cond='data:post.editUrl'>
             <span expr:class='"item-control " + data:post.adminClass'>
               <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-                <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+                <img alt='' class='icon-action' height='18' src='https://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
               </a>
             </span>
           </b:if>
@@ -929,27 +902,27 @@
                       <data:title/>
                     </h3>
                   </b:if>
-                  <p>I am Mihai Parparita and can be reached at
-                  <script>printEmail()</script>.</p>
+                  <p>I am Mihai Parparita and can be reached at <a class="email"/>.</p>
                   <p>Things I've done/had a hand in that you might have heard of:
                   <a href='https://quip.com/'>Quip</a>,
-                  <a href='http://developer.chrome.com/apps'>Chrome Apps</a>,
-                  <a href='http://www.google.com/reader'>Google Reader</a>,
+                  <a href='https://developer.chrome.com/apps'>Chrome Apps</a>,
+                  <a href='https://www.google.com/reader'>Google Reader</a>,
                   <a href='http://www.mscape.com/products/iconographer.html'>Iconographer</a>,
-                  <a href='http://persistent.info/overplot/'>Overplot</a> and
+                  <a href='https://persistent.info/overplot/'>Overplot</a> and
                   <a href='https://github.com/mihaip/gmail-greasemonkey'>Gmail Greasemonkey Scripts</a>.
-                  I also have a <a href="http://persistent.info/about/resume.pdf">resume</a> with a few more details.</p>
+                  I also have a <a href="https://persistent.info/about/resume.pdf">resume</a> with a few more details.</p>
                   <p>I exist on
                   <a class='profile-link' expr:href='data:userUrl' rel='me'>Blogger</a>,
+                  <a href='https://www.linkedin.com/in/mihai-parparita/' rel='me'>LinkedIn</a>,
                   <a href='https://twitter.com/mihai' rel='me'>Twitter</a>,
                   <a href='https://github.com/mihaip' rel='me'>GitHub</a>,
                   <a href='https://www.facebook.com/mihai.parparita' rel='me'>Facebook</a>
                   and
-                  <a href='http://foursquare.com/mihai' rel='me'>Foursquare</a>
+                  <a href='https://foursquare.com/mihai' rel='me'>Foursquare</a>
                   (update frequency/abandonment rate varies).</p>
-                  <p>All code on this is licensed under a <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
+                  <p>All code on this is licensed under a <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
                   unless otherwise specified. All content is licensed under a
-                  <a href='http://creativecommons.org/licenses/by/3.0/' rel='license'>Creative Commons Attribution 3.0 License</a>.</p>
+                  <a href='https://creativecommons.org/licenses/by/3.0/' rel='license'>Creative Commons Attribution 3.0 License</a>.</p>
                 </b:includable>
               </b:widget>
             </b:section>
@@ -958,6 +931,16 @@
       </table>
     </div>
     <b:section class='footer' id='footer' preferred='yes'/>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
+    <script>
+      const email = [109, 105, 104, 97, 105, 64, 112, 101, 114, 115, 105, 115, 116,
+          101, 110, 116, 46, 105, 110, 102, 111].map(c => String.fromCharCode(c)).join("");
+      for (const emailNode of document.querySelectorAll("a.email")) {
+        emailNode.href = `mailto:${email}`;
+        if (!emailNode.textContent) {
+          emailNode.textContent = email;
+        }
+      }
+    </script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert" defer></script>
   </body>
 </html>
