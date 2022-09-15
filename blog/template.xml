@@ -4,10 +4,8 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta content='blogger' name='generator'/>
-    <link href='https://feeds.feedburner.com/PersistentInfo' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml'/>
-    <link href='http://blog.persistent.info/feeds/comments/default' rel='alternate' title='persistent.info - Comments Feed' type='application/atom+xml'/>
-    <link href='http://www2.blogger.com/rsd.g?blogID=6525469191850690957' rel='EditURI' title='RSD' type='application/rsd+xml'/>
-    <link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+    <link href='https://blog.persistent.info/feeds/posts/default' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml'/>
+    <link href='https://blog.persistent.info/feeds/comments/default' rel='alternate' title='persistent.info - Comments Feed' type='application/atom+xml'/>
     <title>
       <data:blog.pageTitle/>
     </title>
@@ -64,7 +62,7 @@
                   <a href='#archive'>Archives</a>
                 </li>
                 <li>
-                  <a href='https://feeds.feedburner.com/PersistentInfo' id='banner-subscribe-link'>Subscribe</a>
+                  <a href='https://blog.persistent.info/feeds/posts/default' id='banner-subscribe-link'>Subscribe</a>
                 </li>
                 <li>
                   <a class="email">Contact</a>
