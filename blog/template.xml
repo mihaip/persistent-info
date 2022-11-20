@@ -902,6 +902,7 @@
                   </b:if>
                   <p>I am Mihai Parparita and can be reached at <a class="email"/>.</p>
                   <p>Things I've done/had a hand in that you might have heard of:
+                  <a href='https://tailscale.com/'>Tailscale</a>,
                   <a href='https://quip.com/'>Quip</a>,
                   <a href='https://developer.chrome.com/apps'>Chrome Apps</a>,
                   <a href='https://www.google.com/reader'>Google Reader</a>,
@@ -913,6 +914,7 @@
                   <a class='profile-link' expr:href='data:userUrl' rel='me'>Blogger</a>,
                   <a href='https://www.linkedin.com/in/mihai-parparita/' rel='me'>LinkedIn</a>,
                   <a href='https://twitter.com/mihai' rel='me'>Twitter</a>,
+                  <a href='https://hachyderm.io/@mihaip' rel='me'>Mastodon</a>,
                   <a href='https://github.com/mihaip' rel='me'>GitHub</a>,
                   <a href='https://www.facebook.com/mihai.parparita' rel='me'>Facebook</a>
                   and
