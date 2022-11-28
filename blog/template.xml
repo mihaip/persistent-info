@@ -375,12 +375,14 @@
               </a>
             </h1>
             <div class='entry-container'>
-              <div class='entry-date'>
-                <span class='entry-label'>
-                  <data:top.timestampLabel/>
-                </span>
-                <data:post.timestamp/>
-              </div>
+              <b:if cond='data:blog.pageType != "static_page"'>
+                <div class='entry-date'>
+                  <span class='entry-label'>
+                    <data:top.timestampLabel/>
+                  </span>
+                  <data:post.timestamp/>
+                </div>
+              </b:if>
               <div class='entry-meta'>
                 <b:if cond='data:post.labels'>
                   <span class='entry-label'>
@@ -407,7 +409,7 @@
                   </b:if>
                 </b:if>
               </div>
-              <article class='entry-body'>
+              <article expr:class='data:blog.pageType == "static_page" ? "page-body" : "entry-body"'>
                 <data:post.body/>
               </article>
             </div>
@@ -909,6 +911,7 @@
                   <a href='http://www.mscape.com/products/iconographer.html'>Iconographer</a>,
                   <a href='https://persistent.info/overplot/'>Overplot</a> and
                   <a href='https://github.com/mihaip/gmail-greasemonkey'>Gmail Greasemonkey Scripts</a>.
+                  A <a href="https://blog.persistent.info/p/projects.html">more complete projects list</a> is being back-filled.
                   I also have a <a href="https://persistent.info/about/resume.pdf">resume</a> with a few more details.</p>
                   <p>I exist on
                   <a class='profile-link' expr:href='data:userUrl' rel='me'>Blogger</a>,
