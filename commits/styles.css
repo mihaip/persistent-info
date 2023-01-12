@@ -1,0 +1,95 @@
+body {
+    font-size: 15px;
+    color: #333;
+    background: white;
+    padding: 60px 95px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+}
+
+@media (max-width: 812px) {
+	body {
+		padding: 20px 32px;
+	}
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+h1:first-child {
+    margin-top: 0;
+}
+
+/* Years */
+h2 {
+    font-size: 22px;
+    line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+h2::before,
+h2::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px dashed #555;
+}
+
+h2::before {
+  margin-right: 0.5em;
+}
+
+h2::after {
+  margin-left: 0.5em;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+/* Body text */
+body,
+p {
+    font-family: "Crimson Text", serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+    color: #4e89ed;
+}
+
+.capture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.capture img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
