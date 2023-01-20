@@ -26,15 +26,20 @@ div, h1, h2, h3, h4, h5, h6 {
 
 /* Banner title */
 #banner {
-  background: url(https://persistent.info/blogger-files/banner-title-background.gif) repeat-x;
+  background-repeat: repeat-x;
+  background-image: url(https://persistent.info/blogger-files/banner-title-background.png);
+  background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-title-background.png) 1x, url(https://persistent.info/blogger-files/banner-title-background@2x.png) 2x);
+  background-image: image-set(url(https://persistent.info/blogger-files/banner-title-background.png) 1x, url(https://persistent.info/blogger-files/banner-title-background@2x.png) 2x);
   height: 89px;
 }
 
 #title {
-  background: url(https://persistent.info/blogger-files/banner-title.gif);
+  background-image: url(https://persistent.info/blogger-files/banner-title.png);
+  background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-title.png) 1x, url(https://persistent.info/blogger-files/banner-title@2x.png) 2x);
+  background-image: image-set(url(https://persistent.info/blogger-files/banner-title.png) 1x, url(https://persistent.info/blogger-files/banner-title@2x.png) 2x);
   width: 526px;
   height: 83px;
-  margin-left: 21px;
+  margin-left: 20px;
 }
 
 #title * {
@@ -43,13 +48,15 @@ div, h1, h2, h3, h4, h5, h6 {
 
 /* Top navigation */
 #top-nav {
-  background: url(https://persistent.info/blogger-files/banner-links-background.gif);
+  background-image: url(https://persistent.info/blogger-files/banner-links-background.png);
+  background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-links-background.png) 1x, url(https://persistent.info/blogger-files/banner-links-background@2x.png) 2x);
+  background-image: image-set(url(https://persistent.info/blogger-files/banner-links-background.png) 1x, url(https://persistent.info/blogger-files/banner-links-background@2x.png) 2x);
   border-style: solid;
   border-width: 1px 0;
   border-color: #666;
   overflow: hidden;
-  height: 21px;
-  padding: 3px 0;
+  height: 22px;
+  padding: 6px 0;
 }
 
 #banner-links {
@@ -77,7 +84,11 @@ div, h1, h2, h3, h4, h5, h6 {
 
 #banner-links #banner-subscribe-link {
   padding-left: 19px;
-  background: url(https://persistent.info/blogger-files/banner-subscribe-icon.gif) no-repeat center left;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-image: url(https://persistent.info/blogger-files/banner-subscribe-icon.png);
+  background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-subscribe-icon.png) 1x, url(https://persistent.info/blogger-files/banner-subscribe-icon@2x.png) 2x);
+  background-image: image-set(url(https://persistent.info/blogger-files/banner-subscribe-icon.png) 1x, url(https://persistent.info/blogger-files/banner-subscribe-icon@2x.png) 2x);
 }
 
 #search-form {
