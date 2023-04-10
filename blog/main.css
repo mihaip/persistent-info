@@ -73,7 +73,6 @@ div, h1, h2, h3, h4, h5, h6 {
 #banner-links a {
   color: #d62;
   font-size: 16px;
-  _font-size: 15px;
   font-family: Trebuchet MS, sans-serif;
   font-weight: bold;
 }
@@ -102,6 +101,10 @@ div, h1, h2, h3, h4, h5, h6 {
   width: 122px;
 }
 
+#search-form:not(:focus-within) #query::placeholder {
+  color: transparent;
+}
+
 #search-form #submit {
   color: #d62;
   background: #444;
@@ -109,6 +112,77 @@ div, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   border-radius: 5px;
   padding: 2px 5px;
+}
+
+@media screen and (max-width: 540px) {
+  #banner {
+    background-repeat: repeat-x;
+    background-image: url(https://persistent.info/blogger-files/banner-title-background-small.png);
+    background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-title-background-small.png) 1x, url(https://persistent.info/blogger-files/banner-title-background-small@2x.png) 2x);
+    background-image: image-set(url(https://persistent.info/blogger-files/banner-title-background-small.png) 1x, url(https://persistent.info/blogger-files/banner-title-background-small@2x.png) 2x);
+    height: 64px;
+  }
+
+  #title {
+    background-image: url(https://persistent.info/blogger-files/banner-title-small.png);
+    background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-title-small.png) 1x, url(https://persistent.info/blogger-files/banner-title-small@2x.png) 2x);
+    background-image: image-set(url(https://persistent.info/blogger-files/banner-title-small.png) 1x, url(https://persistent.info/blogger-files/banner-title-small@2x.png) 2x);
+    width: 375px;
+    height: 59px;
+    margin-left: 10px;
+  }
+
+  #top-nav {
+    background-image: url(https://persistent.info/blogger-files/banner-links-background-small.png);
+    background-image: -webkit-image-set(url(https://persistent.info/blogger-files/banner-links-background-small.png) 1x, url(https://persistent.info/blogger-files/banner-links-background-small@2x.png) 2x);
+    background-image: image-set(url(https://persistent.info/blogger-files/banner-links-background-small.png) 1x, url(https://persistent.info/blogger-files/banner-links-background-small@2x.png) 2x);
+  }
+
+  #banner-links {
+    padding-left: 11px;
+  }
+
+  /* Subscribe link is too prominent on small screens, users can rely on auto-discovery there */
+  #banner-links li:has(> #banner-subscribe-link) {
+    display: none;
+  }
+
+  #banner-subscribe-link {
+    display: none;
+  }
+
+  /* Make search input look like one of the banner links when not focused */
+  #search-form:not(:focus-within) #query {
+    width: 60px;
+    background: transparent;
+    border: 0;
+    appearance: none;
+    padding: 0;
+  }
+
+  #search-form:not(:focus-within) #query::placeholder {
+    color: #d62;
+    font-size: 16px;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+  }
+
+  #search-form:not(:focus-within) #submit {
+    display: none;
+  }
+
+  #search-form {
+    padding-right: 11px;
+  }
+
+  #search-form:focus-within {
+    float: none;
+    margin-left: 10px;
+  }
+
+  #search-form:focus-within + #banner-links {
+    display: none;
+  }
 }
 
 /* Status message */

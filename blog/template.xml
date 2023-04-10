@@ -3,6 +3,7 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta content='blogger' name='generator'/>
     <link href='https://blog.persistent.info/feeds/posts/default' rel='alternate' title='persistent.info - Posts Feed' type='application/atom+xml'/>
     <link href='https://blog.persistent.info/feeds/comments/default' rel='alternate' title='persistent.info - Comments Feed' type='application/atom+xml'/>
@@ -50,7 +51,7 @@
           <div id="top-nav">
             <div id="top-nav-inner">
               <form action="/search" method="GET" id="search-form">
-                <input name="q" type="text" id="query"/>
+                <input name="q" type="text" id="query" placeholder="Search"/>
                 <input value="Search" type="submit" id="submit"/>
               </form>
 
