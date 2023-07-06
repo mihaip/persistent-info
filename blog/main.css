@@ -286,6 +286,11 @@ div, h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
+.entry-body img {
+  max-width: 100%;
+  height: auto;
+}
+
 .entry-body .footnotes {
   /* !important is used since the footnotes element has an inline style (for
     feed readers) with the color #aaa that looks better against a white
