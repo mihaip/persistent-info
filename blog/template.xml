@@ -911,11 +911,12 @@
                   </b:if>
                   <p>I am Mihai Parparita and can be reached at <a class="email"/>.</p>
                   <p>Things I've done/had a hand in that you might have heard of:
+                  <a href='https://sierra.ai/'>Sierra</a>,
                   <a href='https://tailscale.com/'>Tailscale</a>,
                   <a href='https://quip.com/'>Quip</a>,
                   <a href='https://developer.chrome.com/apps'>Chrome Apps</a>,
-                  <a href='https://www.google.com/reader'>Google Reader</a>,
-                  <a href='http://www.mscape.com/products/iconographer.html'>Iconographer</a>,
+                  <a href='https://en.wikipedia.org/wiki/Google_Reader'>Google Reader</a>,
+                  <a href='https://www.mscape.com/'>Iconographer</a>,
                   <a href='https://persistent.info/overplot/'>Overplot</a> and
                   <a href='https://github.com/mihaip/gmail-greasemonkey'>Gmail Greasemonkey Scripts</a>.
                   A <a href="https://blog.persistent.info/p/projects.html">more complete projects list</a> is being back-filled.
